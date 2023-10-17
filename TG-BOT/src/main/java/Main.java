@@ -5,8 +5,8 @@ import org.telegram.telegrambots.updatesreceivers.DefaultBotSession;
 
 public class Main {
     public static void main(String[] args) {
-        String botName = "*";
-        String botToken = "***";
+        String botName = "Echo bot";
+        String botToken = "6348425588:AAEsYA7zZYekv4QNyYbuRUNkpVEH6OjSyic";
         TelegramBotsApi telegramBotsApi = null;
         try {
             telegramBotsApi = new TelegramBotsApi(DefaultBotSession.class);
