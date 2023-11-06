@@ -46,18 +46,4 @@ public class Bot extends TelegramLongPollingBot {
             }
         }
     }
-    //    public String parseMessage(String textMsg) {
-//        String response;
-//
-//        //Сравниваем текст пользователя с нашими командами, на основе этого формируем ответ
-//        if(textMsg.equals("/start"))
-//            response = "Приветствую, бот знает много цитат. Жми /get, чтобы получить случайную из них";
-//        else if(textMsg.equals("/get"))
-//            response = storage.getRandQuote();
-//        else
-//            response = "Сообщение не распознано";
-//
-//        return response;
-//    }
-
 }
