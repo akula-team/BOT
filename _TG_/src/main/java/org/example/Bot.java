@@ -8,8 +8,8 @@ import org.telegram.telegrambots.meta.exceptions.TelegramApiException;
 
 public class Bot extends TelegramLongPollingBot {
     // создаем две константы, присваиваем им значения токена и имя бота соответственно
-    private static final String BOT_TOKEN = "6542589466:AAGSazbfXLObjgKPRhCDboBQJUCJNqvxNpM";
-    private static final String BOT_NAME = "@PolyaTheMostBeautifulbot";
+    private static final String BOT_TOKEN = "";
+    private static final String BOT_NAME = "";
 
     Bot() {
     }
